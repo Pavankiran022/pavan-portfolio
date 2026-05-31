@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const message = document.querySelector('textarea').value;
 
       try {
-        const response = await fetch("http://localhost:5000/send-message", {
+        const response = await fetch("https://pavan-portfolio.onrender.com/send-message", {
           method: "POST",
           headers: {
             "Content-Type": "application/json"
